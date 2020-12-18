@@ -39,6 +39,7 @@ export const SidebarMenu = styled.div`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 80px);
     text-align: center;
+    
 
     @media screen and (max-width: 480px) {
         grid-template-rows: repeat(3, 60px);
@@ -55,6 +56,7 @@ export const SidebarLink = styled(Link)`
     transition: 0.2s ease-in-out;
     color: #000;
     cursor: pointer;
+    margin-bottom: 2rem;
 
     &: hover {
         color: #e31837;

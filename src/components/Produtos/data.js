@@ -7,7 +7,7 @@ export const produtoData = [
         img: product1,
         alt: 'Pizza',
         nome: 'Pizza Ansha',
-        desc: 'Queijo, Mayonese, Azeitonas, Batatas',
+        desc: 'Queijo, Mayonese, Azeitonas, Batatas,Queijo, Mayonese, Azeitonas,',
         price: '$19.99',
         button: 'Add to Cart'
     },
@@ -15,7 +15,7 @@ export const produtoData = [
         img: product2,
         alt: 'Pizza',
         nome: 'Pizza Ansha',
-        desc: 'Queijo, Mayonese, Azeitonas, Batatas',
+        desc: 'Queijo, Mayonese, Azeitonas, Batatas,Queijo, Mayonese, Azeitonas,',
         price: '$13.99',
         button: 'Add to Cart'
     },
@@ -23,7 +23,7 @@ export const produtoData = [
         img: product3,
         alt: 'Pizza',
         nome: 'Pizza Ansha',
-        desc: 'Queijo, Mayonese, Azeitonas, Batatas',
+        desc: 'Queijo, Mayonese, Azeitonas, Batatas,Queijo, Mayonese, Azeitonas,',
         price: '$14.99',
         button: 'Add to Cart'
     },
