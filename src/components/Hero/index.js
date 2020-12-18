@@ -8,7 +8,7 @@ const  Hero = () => {
             <Navbar/>
             <HeroContent>
                 <HeroItems>
-                    <HeroH1>As Melhores Pizzas Sempre</HeroH1>
+                    <HeroH1>As Melhores Pizzas </HeroH1>
                     <HeroP>Pronto em Minutos</HeroP>
                     <HeroBtn>Efectuar Pedido</HeroBtn>
                 </HeroItems>
