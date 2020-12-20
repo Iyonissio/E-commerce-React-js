@@ -20,7 +20,7 @@ const Produtos = ({heading,data}) => {
                         <ProdutosCard key={index}>
                             <ProdutosImg src={produto.img} alt={produto.alt} />
                             <ProdutosInfo>
-                                <ProdutosTitulo>{produto.name}</ProdutosTitulo>
+                                <ProdutosTitulo>{produto.nome}</ProdutosTitulo>
                                 <ProdutosDesc>{produto.desc}</ProdutosDesc>
                                 <ProdutosPrice>{produto.price}</ProdutosPrice>
                                 <ProdutosButton>{produto.button}</ProdutosButton>
