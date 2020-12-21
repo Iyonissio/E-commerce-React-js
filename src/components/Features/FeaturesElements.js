@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import destaque from '../../images/pizza3.jpg';
+import destaque from '../../images/menu-image5.jpg';
 
 export const FeaturesConteiner = styled.div`
     background: linear-gradient(to right, rgba(0,0,0,0.7),

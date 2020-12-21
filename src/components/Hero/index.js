@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { FaFire, FaHamburger } from 'react-icons/fa';
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 import { HeroContainer, HeroItems, HeroH1,HeroContent,HeroP, HeroBtn } from './HeroElements';
@@ -15,9 +16,9 @@ const  Hero = () => {
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <HeroContent>
                 <HeroItems>
-                    <HeroH1>As Melhores Pizzas </HeroH1>
-                    <HeroP>Ficam Prontas em Minutos</HeroP>
-                    <HeroBtn>Efectuar Pedido</HeroBtn>
+                    <HeroH1>Os Melhores Pratos <FaHamburger rel="noopener noreferrer"/></HeroH1>
+                    <HeroP> Restaurante Hut <FaFire rel="noopener noreferrer"/> </HeroP>
+                    <HeroBtn>Fazer Pedido</HeroBtn>
                 </HeroItems>
             </HeroContent>
         </HeroContainer>
